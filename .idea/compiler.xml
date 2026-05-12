@@ -6,18 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="alertas-service" />
+        <module name="sincronizacion-service" />
         <module name="catalogo-service" />
+        <module name="ventas-service" />
         <module name="logistica-service" />
+        <module name="jugadores-service" />
+        <module name="pagos-service" />
+        <module name="reabastecimiento-service" />
+        <module name="alertas-service" />
         <module name="buylist-service" />
         <module name="inventario-service" />
-        <module name="jugadores-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="jugadores-service" options="-parameters" />
+      <module name="jugadores-service" options="" />
     </option>
   </component>
 </project>
