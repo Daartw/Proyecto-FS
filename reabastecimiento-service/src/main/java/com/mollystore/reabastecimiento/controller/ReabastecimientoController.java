@@ -1,11 +1,13 @@
 package com.mollystore.reabastecimiento.controller;
 import com.mollystore.reabastecimiento.entity.*;
 import com.mollystore.reabastecimiento.service.ReabastecimientoService;
+import lombok.extern.slf4j.Slf4j;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
+@Slf4j
 @RestController @RequestMapping("/api/reabastecimiento") @RequiredArgsConstructor
 public class ReabastecimientoController {
     private final ReabastecimientoService service;

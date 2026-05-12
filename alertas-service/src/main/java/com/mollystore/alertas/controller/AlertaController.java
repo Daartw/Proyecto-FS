@@ -1,12 +1,14 @@
 package com.mollystore.alertas.controller;
 import com.mollystore.alertas.entity.*;
 import com.mollystore.alertas.service.AlertaService;
+import lombok.extern.slf4j.Slf4j;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Map;
 
+@Slf4j
 @RestController @RequestMapping("/api/alertas") @RequiredArgsConstructor
 public class AlertaController {
     private final AlertaService service;

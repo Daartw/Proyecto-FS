@@ -1,12 +1,14 @@
 package com.mollystore.jugadores.controller;
 import com.mollystore.jugadores.entity.*;
 import com.mollystore.jugadores.service.JugadorService;
+import lombok.extern.slf4j.Slf4j;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Map;
 
+@Slf4j
 @RestController @RequestMapping("/api/jugadores") @RequiredArgsConstructor
 public class JugadorController {
     private final JugadorService service;

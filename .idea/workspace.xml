@@ -4,74 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf99675a-5c3f-4312-a84e-617f7023ad69" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alertas-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alertas-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buylist-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/buylist-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo-service/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo-service/target/classes/com/mollystore/catalogo/CatalogoServiceApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo-service/target/classes/com/mollystore/catalogo/controller/CartaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo-service/target/classes/com/mollystore/catalogo/controller/ExpansionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo-service/target/classes/com/mollystore/catalogo/controller/RarezaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo-service/target/classes/com/mollystore/catalogo/controller/TipoCartaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo-service/target/classes/com/mollystore/catalogo/entity/Carta$CartaBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo-service/target/classes/com/mollystore/catalogo/entity/Carta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo-service/target/classes/com/mollystore/catalogo/entity/Expansion$ExpansionBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo-service/target/classes/com/mollystore/catalogo/entity/Expansion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo-service/target/classes/com/mollystore/catalogo/entity/Rareza$RarezaBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo-service/target/classes/com/mollystore/catalogo/entity/Rareza.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo-service/target/classes/com/mollystore/catalogo/entity/TipoCarta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo-service/target/classes/com/mollystore/catalogo/repository/CartaRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo-service/target/classes/com/mollystore/catalogo/repository/ExpansionRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo-service/target/classes/com/mollystore/catalogo/repository/RarezaRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo-service/target/classes/com/mollystore/catalogo/repository/TipoCartaRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo-service/target/classes/com/mollystore/catalogo/service/CartaService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventario-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jugadores-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jugadores-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jugadores-service/src/main/java/com/mollystore/jugadores_service/JugadoresServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jugadores-service/src/main/java/com/mollystore/jugadores_service/controller/JugadorController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jugadores-service/src/main/java/com/mollystore/jugadores_service/dto/CompraRequestDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jugadores-service/src/main/java/com/mollystore/jugadores_service/model/HistorialCompra.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jugadores-service/src/main/java/com/mollystore/jugadores_service/model/Jugador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jugadores-service/src/main/java/com/mollystore/jugadores_service/repository/HistorialCompraRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jugadores-service/src/main/java/com/mollystore/jugadores_service/repository/JugadorRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jugadores-service/src/main/java/com/mollystore/jugadores_service/service/JugadorService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jugadores-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jugadores-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jugadores-service/src/test/java/com/mollystore/jugadores_service/JugadoresServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logistica-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistica-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4b11c465-8312-4fd0-8c72-8e26b64a22a4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Daartw&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Daartw/Proyecto-FS.git&quot;,
-    &quot;accountId&quot;: &quot;d39a1ada-a864-4428-878f-645e2ef3a0cd&quot;
-  }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 8
-}</component>
-  <component name="ProjectId" id="3DdbYkQIoLVPDGr90nRFTqveYzE" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3Ddm4RuslJfKNJtIzgVHofvvlnu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -80,31 +23,26 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.CatalogoServiceApplication.executor": "Run",
-    "Spring Boot.InventarioServiceApplication.executor": "Run",
-    "Spring Boot.JugadoresServiceApplication.executor": "Run",
+    "Spring Boot.AlertasServiceApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bf99675a-5c3f-4312-a84e-617f7023ad69" name="Changes" comment="" />
-      <created>1778614944210</created>
+      <changelist id="4b11c465-8312-4fd0-8c72-8e26b64a22a4" name="Changes" comment="" />
+      <created>1778620130629</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1778614944210</updated>
+      <updated>1778620130629</updated>
     </task>
     <servers />
   </component>

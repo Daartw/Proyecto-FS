@@ -1,12 +1,14 @@
 package com.mollystore.logistica.controller;
 import com.mollystore.logistica.entity.*;
 import com.mollystore.logistica.service.LogisticaService;
+import lombok.extern.slf4j.Slf4j;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Map;
 
+@Slf4j
 @RestController @RequestMapping("/api/envios") @RequiredArgsConstructor
 public class LogisticaController {
     private final LogisticaService service;

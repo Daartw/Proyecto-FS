@@ -1,12 +1,14 @@
 package com.mollystore.pagos.controller;
 import com.mollystore.pagos.entity.*;
 import com.mollystore.pagos.service.PagoService;
+import lombok.extern.slf4j.Slf4j;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.Arrays;
 import java.util.List;
 
+@Slf4j
 @RestController @RequestMapping("/api/pagos") @RequiredArgsConstructor
 public class PagoController {
     private final PagoService pagoService;

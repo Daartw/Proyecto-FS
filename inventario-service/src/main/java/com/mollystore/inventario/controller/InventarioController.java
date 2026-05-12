@@ -2,12 +2,14 @@ package com.mollystore.inventario.controller;
 
 import com.mollystore.inventario.entity.*;
 import com.mollystore.inventario.service.InventarioService;
+import lombok.extern.slf4j.Slf4j;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Map;
 
+@Slf4j
 @RestController
 @RequestMapping("/api/inventario")
 @RequiredArgsConstructor

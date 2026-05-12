@@ -12,7 +12,7 @@
 
     <artifactId>catalogo-service</artifactId>
     <version>1.0.0</version>
-    <n>Molly Store - Catalogo Service</n>
+    <name>Molly Store - Catalogo Service</name>
 
     <dependencies>
         <dependency>
@@ -41,6 +41,15 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+            <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <scope>runtime</scope>
         </dependency>
     </dependencies>
 

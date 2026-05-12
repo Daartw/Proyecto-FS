@@ -3,11 +3,13 @@ package com.mollystore.catalogo.controller;
 import com.mollystore.catalogo.entity.Carta;
 import com.mollystore.catalogo.service.CartaService;
 import jakarta.validation.Valid;
+import lombok.extern.slf4j.Slf4j;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
+@Slf4j
 @RestController
 @RequestMapping("/api/cartas")
 @RequiredArgsConstructor

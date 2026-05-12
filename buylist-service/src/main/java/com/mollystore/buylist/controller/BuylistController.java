@@ -1,11 +1,13 @@
 package com.mollystore.buylist.controller;
 import com.mollystore.buylist.entity.SolicitudBuylist;
 import com.mollystore.buylist.service.BuylistService;
+import lombok.extern.slf4j.Slf4j;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
+@Slf4j
 @RestController @RequestMapping("/api/buylist") @RequiredArgsConstructor
 public class BuylistController {
     private final BuylistService buylistService;

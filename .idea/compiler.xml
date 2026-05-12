@@ -19,9 +19,4 @@
       </profile>
     </annotationProcessing>
   </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="jugadores-service" options="" />
-    </option>
-  </component>
 </project>
