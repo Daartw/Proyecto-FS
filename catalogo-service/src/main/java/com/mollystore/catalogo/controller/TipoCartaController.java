@@ -3,6 +3,7 @@ package com.mollystore.catalogo.controller;
 import com.mollystore.catalogo.entity.TipoCarta;
 import com.mollystore.catalogo.repository.TipoCartaRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
@@ -13,5 +14,7 @@ public class TipoCartaController {
     private final TipoCartaRepository tipoCartaRepository;
 
     @GetMapping
-    public List<TipoCarta> listar() { return tipoCartaRepository.findAll(); }
+    public ResponseEntity<List<TipoCarta>> listar() {
+        return ResponseEntity.ok(tipoCartaRepository.findAll());
+    }
 }

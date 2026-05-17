@@ -17,7 +17,9 @@ public class CartaController {
     private final CartaService cartaService;
 
     @GetMapping
-    public List<Carta> listarTodas() { return cartaService.findAll(); }
+    public ResponseEntity<List<Carta>> listarTodas() {
+        return ResponseEntity.ok(cartaService.findAll());
+    }
 
     @GetMapping("/{id}")
     public ResponseEntity<Carta> buscarPorId(@PathVariable Long id) {
@@ -25,13 +27,13 @@ public class CartaController {
     }
 
     @GetMapping("/buscar")
-    public List<Carta> buscarPorNombre(@RequestParam String nombre) {
-        return cartaService.buscarPorNombre(nombre);
+    public ResponseEntity<List<Carta>> buscarPorNombre(@RequestParam String nombre) {
+        return ResponseEntity.ok(cartaService.buscarPorNombre(nombre));
     }
 
     @GetMapping("/expansion/{id}")
-    public List<Carta> porExpansion(@PathVariable Long id) {
-        return cartaService.findByExpansion(id);
+    public ResponseEntity<List<Carta>> porExpansion(@PathVariable Long id) {
+        return ResponseEntity.ok(cartaService.findByExpansion(id));
     }
 
     @PostMapping
